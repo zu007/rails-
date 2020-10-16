@@ -20,7 +20,7 @@ log_info "Installing Git ..."
   sudo yum -y install git
 
 log_info "Installing build essentials ..."
-  sudo yum install gcc gcc-c++ kernel-devel make
+  sudo -y yum install gcc gcc-c++ kernel-devel make
 
 log_info "Installing libraries for common gem dependencies ..."
   sudo yum -y install libxslt1-dev libcurl4-openssl-dev libksba8 libksba-dev libreadline-dev libssl-dev zlib1g-dev libsnappy-dev
